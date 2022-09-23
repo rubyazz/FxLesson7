@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="230.0" prefWidth="370.0" spacing="20.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo3new.WelcomeController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="337.0" prefWidth="329.0">
+        <children>
+            <Text layoutX="124.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOME ">
+                <font>
+                    <Font name="Ageo-ExtraBold" size="12.0" />
+                </font>
+            </Text>
+            <VBox layoutX="14.0" layoutY="35.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="83.0" prefWidth="298.0">
+                <children>
+                    <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="96.0" prefWidth="298.0">
+                        <children>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ENTER WHAT TO DO">
+                                <font>
+                                    <Font name="Ageo-Regular" size="12.0" />
+                                </font>
+                                <VBox.margin>
+                                    <Insets bottom="5.0" right="5.0" top="5.0" />
+                                </VBox.margin>
+                            </Text>
+                            <TextField prefHeight="25.0" prefWidth="141.0">
+                                <VBox.margin>
+                                    <Insets bottom="10.0" right="10.0" top="10.0" />
+                                </VBox.margin>
+                            </TextField>
+                        </children>
+                    </VBox>
+                </children>
+            </VBox>
+            <Button id="logoutbutton" alignment="CENTER" contentDisplay="CENTER" layoutX="93.0" layoutY="139.0" onAction="#logoutbuttonClicked" prefHeight="30.0" prefWidth="140.0" text="Log Out" />
+        </children>
+    </Pane>
+</VBox>
