@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="321.0" prefWidth="370.0" spacing="20.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo3new.LoginController">
+<VBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="321.0" prefWidth="370.0" spacing="20.0" stylesheets="@app.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo3new.LoginController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
@@ -53,8 +53,8 @@
                </VBox>
             </children>
          </VBox>
-          <Button id="loginbutton" alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="235.0" onAction="#loginbuttonClicked" prefHeight="30.0" prefWidth="140.0" text="Login" />
-         <Button id="registrationbutton" alignment="CENTER" contentDisplay="CENTER" layoutX="163.0" layoutY="235.0" onAction="#registrationbuttonClicked" prefHeight="30.0" prefWidth="140.0" text="Registration" />
+          <Button id="loginbutton" alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="235.0" onAction="#loginbuttonClicked" prefHeight="30.0" prefWidth="140.0" styleClass="dd" text="Login" />
+         <Button id="registrationbutton" alignment="CENTER" contentDisplay="CENTER" layoutX="163.0" layoutY="235.0" onAction="#registrationbuttonClicked" prefHeight="30.0" prefWidth="140.0" styleClass="de" text="Registration" />
       </children>
    </Pane>
 </VBox>
