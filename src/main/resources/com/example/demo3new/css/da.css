@@ -1,0 +1,11 @@
+#ef{
+    -fx-color: red;
+    -fx-padding: 10px 20px ;
+    -fx-background-color: red;
+}
+
+
+#txt{
+    -fx-color:purple;
+    -fx-background-color: black;
+}

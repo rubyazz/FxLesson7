@@ -14,3 +14,9 @@
         -fx-background-insets: 0;
         -fx-text-fill: white;
 }
+
+.def{
+    -fx-color:white;
+    -fx-padding: 10px 20px ;
+    -fx-background-color: red;
+}
