@@ -26,12 +26,12 @@
                                 </ImageView>
                         <ImageView fx:id="exit_img" fitHeight="22.0" fitWidth="30.0" layoutX="610.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@f.png" />
+                              <Image url="@aa.png" />
                            </image>
                         </ImageView>
                         <ImageView fx:id="exit_img1" fitHeight="22.0" fitWidth="30.0" layoutX="643.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@f2.png" />
+                              <Image url="@aa2.png" />
                            </image>
                         </ImageView>
                             </children>
