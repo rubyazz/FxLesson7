@@ -19,21 +19,29 @@
                     <children>
                         <Pane layoutX="102.0" layoutY="20.0" prefHeight="25.0" prefWidth="200.0" style="-fx-background-color: #032d4d;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                             <children>
-                                <ImageView fx:id="Exit" fitHeight="22.0" fitWidth="22.0" layoutX="678.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
-                                    <image>
-                                        <Image url="@Images/exit.png" />
-                                    </image>
-                                </ImageView>
-                        <ImageView fx:id="exit_img" fitHeight="22.0" fitWidth="30.0" layoutX="610.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@aa.png" />
-                           </image>
-                        </ImageView>
-                        <ImageView fx:id="exit_img1" fitHeight="22.0" fitWidth="30.0" layoutX="643.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@aa2.png" />
-                           </image>
-                        </ImageView>
+                        <BorderPane prefHeight="26.0" prefWidth="700.0">
+                           <right>
+                              <Pane prefHeight="32.0" prefWidth="85.0" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fx:id="exit_img1" fitHeight="22.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@aa2.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fx:id="exit_img" fitHeight="22.0" fitWidth="30.0" layoutX="27.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@aa.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fx:id="Exit" fitHeight="22.0" fitWidth="22.0" layoutX="49.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Images/exit.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Pane>
+                           </right>
+                        </BorderPane>
                             </children>
                         </Pane>
                         <HBox layoutX="239.0" layoutY="1.0" prefHeight="43.0" prefWidth="525.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
