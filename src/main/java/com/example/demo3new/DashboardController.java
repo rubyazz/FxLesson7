@@ -25,7 +25,9 @@ public class DashboardController implements Initializable {
         String b="Java";
         String c="Haskell";
         String d="C++";
-        list.addAll(a,b,c,d);
+        String s="C#";
+        String j="Javascript";
+        list.addAll(a,b,c,d,s,j);
         python.getItems().addAll(list);
 
 
